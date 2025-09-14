@@ -101,7 +101,7 @@ function App() {
                             children: "SchemesConnect"
                         }, void 0, false, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 81,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -109,13 +109,13 @@ function App() {
                             children: "Your one-stop portal for government schemes & citizen services"
                         }, void 0, false, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 82,
+                            lineNumber: 88,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/chatbot/page.tsx",
-                    lineNumber: 80,
+                    lineNumber: 86,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -126,12 +126,12 @@ function App() {
                             children: q
                         }, i, false, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 90,
+                            lineNumber: 96,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/app/chatbot/page.tsx",
-                    lineNumber: 88,
+                    lineNumber: 94,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -150,17 +150,16 @@ function App() {
                                             className: "text-gray-600"
                                         }, void 0, false, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 122,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/chatbot/page.tsx",
-                                        lineNumber: 115,
+                                        lineNumber: 121,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `px-5 py-3 rounded-3xl max-w-[75%] break-words shadow-md ${msg.role === "user" ? "bg-blue-600 text-white rounded-br-none" // right bubble style
-                                         : "bg-gradient-to-r from-gray-100 to-gray-200 text-gray-900 rounded-bl-none"}`,
+                                        className: `px-5 py-3 rounded-3xl max-w-[75%] break-words shadow-md ${msg.role === "user" ? "bg-blue-600 text-white rounded-br-none" : "bg-gradient-to-r from-gray-100 to-gray-200 text-gray-900 rounded-bl-none"}`,
                                         children: [
                                             msg.content,
                                             msg.sources && msg.sources.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -170,18 +169,18 @@ function App() {
                                                         children: s
                                                     }, j, false, {
                                                         fileName: "[project]/app/chatbot/page.tsx",
-                                                        lineNumber: 132,
+                                                        lineNumber: 138,
                                                         columnNumber: 23
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/app/chatbot/page.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 136,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/chatbot/page.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 127,
                                         columnNumber: 15
                                     }, this),
                                     msg.role === "user" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -190,18 +189,18 @@ function App() {
                                             className: "text-blue-600"
                                         }, void 0, false, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 146,
+                                            lineNumber: 152,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/chatbot/page.tsx",
-                                        lineNumber: 145,
+                                        lineNumber: 151,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, i, true, {
                                 fileName: "[project]/app/chatbot/page.tsx",
-                                lineNumber: 107,
+                                lineNumber: 113,
                                 columnNumber: 13
                             }, this)),
                         loading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -211,7 +210,7 @@ function App() {
                                     className: "text-gray-600 text-2xl"
                                 }, void 0, false, {
                                     fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 155,
+                                    lineNumber: 161,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -221,39 +220,39 @@ function App() {
                                             className: "w-2 h-2 bg-gray-600 rounded-full animate-bounce"
                                         }, void 0, false, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 157,
+                                            lineNumber: 163,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "w-2 h-2 bg-gray-600 rounded-full animate-bounce delay-150"
                                         }, void 0, false, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 158,
+                                            lineNumber: 164,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "w-2 h-2 bg-gray-600 rounded-full animate-bounce delay-300"
                                         }, void 0, false, {
                                             fileName: "[project]/app/chatbot/page.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 165,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/chatbot/page.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 162,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 154,
+                            lineNumber: 160,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/chatbot/page.tsx",
-                    lineNumber: 101,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -268,10 +267,16 @@ function App() {
                             onChange: (e)=>setInput(e.target.value),
                             rows: 1,
                             placeholder: "Type a message...",
-                            className: "flex-1 resize-none border border-gray-300 rounded-2xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-sm"
+                            className: "flex-1 resize-none border border-gray-300 rounded-2xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-sm",
+                            onKeyDown: (e)=>{
+                                if (e.key === "Enter" && !e.shiftKey) {
+                                    e.preventDefault();
+                                    if (canSend) send();
+                                }
+                            }
                         }, void 0, false, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 173,
+                            lineNumber: 179,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -281,13 +286,13 @@ function App() {
                             children: "Send"
                         }, void 0, false, {
                             fileName: "[project]/app/chatbot/page.tsx",
-                            lineNumber: 180,
+                            lineNumber: 192,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/chatbot/page.tsx",
-                    lineNumber: 166,
+                    lineNumber: 172,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -295,18 +300,18 @@ function App() {
                     children: "*SchemesConnect assistant may make mistakes. Always verify important information."
                 }, void 0, false, {
                     fileName: "[project]/app/chatbot/page.tsx",
-                    lineNumber: 190,
+                    lineNumber: 202,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/chatbot/page.tsx",
-            lineNumber: 78,
+            lineNumber: 84,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/chatbot/page.tsx",
-        lineNumber: 77,
+        lineNumber: 83,
         columnNumber: 5
     }, this);
 }

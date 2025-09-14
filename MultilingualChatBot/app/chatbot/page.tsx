@@ -34,7 +34,10 @@ export default function App() {
     });
   }, [messages]);
 
-  const canSend = useMemo(() => input.trim().length > 0 && !loading, [input, loading]);
+  const canSend = useMemo(
+    () => input.trim().length > 0 && !loading,
+    [input, loading]
+  );
 
   const send = async (question?: string) => {
     const userQuestion = question ?? input.trim();
@@ -60,7 +63,10 @@ export default function App() {
         {
           role: "assistant",
           content: data.answer,
-          sources: data.sources && data.sources.length > 0 ? data.sources : undefined,
+          sources:
+            data.sources && data.sources.length > 0
+              ? data.sources
+              : undefined,
         },
       ]);
     } catch (err: any) {
@@ -110,7 +116,7 @@ export default function App() {
                 msg.role === "user" ? "justify-end" : "justify-start"
               }`}
             >
-              {/* Avatar */}
+              {/* Assistant Avatar */}
               {msg.role === "assistant" && (
                 <div className="flex-shrink-0 text-2xl">
                   <FaRobot className="text-gray-600" />
@@ -121,7 +127,7 @@ export default function App() {
               <div
                 className={`px-5 py-3 rounded-3xl max-w-[75%] break-words shadow-md ${
                   msg.role === "user"
-                    ? "bg-blue-600 text-white rounded-br-none" // right bubble style
+                    ? "bg-blue-600 text-white rounded-br-none"
                     : "bg-gradient-to-r from-gray-100 to-gray-200 text-gray-900 rounded-bl-none"
                 }`}
               >
@@ -176,6 +182,12 @@ export default function App() {
             rows={1}
             placeholder="Type a message..."
             className="flex-1 resize-none border border-gray-300 rounded-2xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-sm"
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && !e.shiftKey) {
+                e.preventDefault();
+                if (canSend) send();
+              }
+            }}
           />
           <button
             type="submit"
